@@ -1,7 +1,16 @@
+body {
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
 nav {
   background-color: #FFB4B0;
   border-style: solid;
   border-color: black;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  font-family: 'Roboto', serif;
 }
 
 #songInfo {
@@ -9,7 +18,19 @@ nav {
   border-style: solid;
   border-color: black;
   float: left;
-  width: 35%;
+  width: 30%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  font-family: 'Roboto', serif;
+}
+
+#filButton {
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-family: 'Roboto', serif;
+
 }
 
 #songs {
@@ -18,4 +39,8 @@ nav {
   border-color: black;
   float: right;
   width: 60%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  font-family: 'Roboto', serif;
 }
