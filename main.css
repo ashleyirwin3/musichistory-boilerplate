@@ -8,10 +8,14 @@ nav {
   background-color: #4DD7FA;
   border-style: solid;
   border-color: black;
+  float: left;
+  width: 35%;
 }
 
 #songs {
   background-color: #FEFAC0;
   border-style: solid;
   border-color: black;
+  float: right;
+  width: 60%;
 }
