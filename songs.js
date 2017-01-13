@@ -9,7 +9,8 @@ songs[songs.length] = "Ironic - by Alanis Moris*ette on the album Jagged Little 
 
 
 //add songs to beginning and end of array
-
+songs.unshift("Midnight Show - by The Killers on the album Hot Fuss")
+songs.push("I Hate Everyone - by Get Set Go on the album Ordinary World")
 
 //loop over the array
 
