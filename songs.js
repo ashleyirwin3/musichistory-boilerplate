@@ -19,6 +19,7 @@ for (var i = songs.length -1; i >= 0 ; i--){
                         .replace(/[@]/, "")
                         .replace(/[(]/, "")
                         .replace(/[!]/, "")
+                        .replace(/[>]/, "-")
 }
 console.log(newArray)
 
